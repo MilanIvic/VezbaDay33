@@ -13,7 +13,7 @@ public class Person {
 	}
 	
 	public Person() {
-		
+		System.out.println("Set values please");
 	}
 	
 	public String getName() {
