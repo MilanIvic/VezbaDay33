@@ -11,7 +11,11 @@ public class Person {
 		this.surname = surname;
 		this.age = age;
 	}
-
+	
+	public Person() {
+		System.out.println("Set values please");
+	}
+	
 	public String getName() {
 		return name;
 	}
