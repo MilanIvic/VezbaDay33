@@ -10,9 +10,11 @@ public class Person {
 		this.name = name;
 		this.surname = surname;
 		this.age = age;
+		System.out.println("Paremetrised constructor");
 	}
 	
 	public Person() {
+		System.out.println("Default constructor");
 		System.out.println("Set values please");
 	}
 	
